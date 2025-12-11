@@ -1,24 +1,31 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MessageCircle, X, Send } from 'lucide-react';
-// Import messages. If strict mode complains about json import, Vite handles it by default.
+import { MessageCircle, X, Send, Loader2 } from 'lucide-react';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import telegramMessages from '../assets/messages.json';
 import Fuse from 'fuse.js';
+
+// Initialize Gemini API
+// NOTE: for production, use a backend to hide the key. For this demo, we use an env var.
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [input, setInput] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
     const [messages, setMessages] = useState([
-        { text: "Namaste! I am Anil Sir's digital assistant. Ask me about exam preparation, strategy, or recent updates.", sender: 'bot' }
+        { text: "Shubhashish! I am Anil Sir's AI avatar. Ask me about your UPSC/BPSC preparation strategy or recent updates.", sender: 'bot' }
     ]);
     const messagesEndRef = useRef(null);
 
-    const fuse = new Fuse(telegramMessages, {
-        keys: [], // array of strings, so keys is empty or just check the item itself
-        threshold: 0.4,
-        distance: 100
+    // Setup Fuse for RAG (Retrieval Augmented Generation)
+    // We Map strings to objects for better Fuse handling
+    const formattedData = telegramMessages.map(m => ({ content: m }));
+    const fuse = new Fuse(formattedData, {
+        keys: ['content'],
+        threshold: 0.6,
+        distance: 200,
+        limit: 3 // Retrieve top 3 relevant messages
     });
-    // Since telegramMessages is an array of strings, Fuse setup might need adjustment.
-    // Fuse with array of strings: just pass the array.
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -28,53 +35,62 @@ const Chatbot = () => {
         scrollToBottom();
     }, [messages]);
 
-    const handleSend = () => {
+    const generateResponse = async (userQuery) => {
+        if (!API_KEY) {
+            return "Error: Gemini API Key is missing in the environment variables (VITE_GEMINI_API_KEY). Please configure it to chat.";
+        }
+
+        try {
+            const genAI = new GoogleGenerativeAI(API_KEY);
+            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+            // 1. Retrieve Context
+            const searchResults = fuse.search(userQuery);
+            const contextDocs = searchResults.map(r => r.item.content).join("\n\n");
+
+            // 2. Construct System Prompt & User Prompt
+            const prompt = `
+            You are Anil Kumar Sir, the founder and director of "Anil's Prayas", a prestigious IAS/BPSC coaching institute in Patna since 1993.
+            
+            **Your Persona:**
+            - **Tone**: Fatherly, authoritative, encouraging, and strict when needed.
+            - **Language**: Mix of Hindi and English (Hinglish), typical of educated Bihar dialect. Use words like "Beta" (Son/Child), "Dhairya" (Patience), "Ran-neeti" (Strategy).
+            - **Signature**: Often end messages with "Shubhashish" (Blessings) or "Aapka Anil Sir".
+            - **Philosophy**: You believe Hindi medium students can top exams with the right guidance. You hate rote learning; you prefer analytical thinking.
+            
+            **Context form Institute Notices (Use this if relevant):**
+            ${contextDocs}
+
+            **User Question:**
+            ${userQuery}
+
+            **Task:**
+            Answer the user's question in your unique persona. If the context has the answer (like batch dates or results), use it. If not, give general advice based on your experience as a mentor (Science College Alumnus, NET/SET qualified). Keep it concise (under 3 sentences usually).
+            `;
+
+            const result = await model.generateContent(prompt);
+            const response = await result.response;
+            return response.text();
+
+        } catch (error) {
+            console.error("Gemini Error:", error);
+            return "Technical glitch! My AI brain is taking a moment. Please try again later. (API Error)";
+        }
+    };
+
+    const handleSend = async () => {
         if (!input.trim()) return;
 
         const userMsg = { text: input, sender: 'user' };
         setMessages(prev => [...prev, userMsg]);
-
-        // Simulate thinking
-        setTimeout(() => {
-            // Simple search
-            // fuse.js for array of strings needs specific config or just map to objects. 
-            // Mapping to objects is safer:
-            const formattedData = telegramMessages.map(m => ({ content: m }));
-            const fuseInstance = new Fuse(formattedData, {
-                keys: ['content'],
-                threshold: 0.5,
-            });
-
-            const results = fuseInstance.search(input);
-            let botResponse = "I couldn't find a specific quote from Anil Sir on that. Please check the YouTube channel or Telegram for the latest updates.";
-
-            if (results.length > 0) {
-                // Pick the best match
-                const bestMatch = results[0].item.content;
-
-                // Templates to make it sound like an agent referencing Anil Sir
-                const templates = [
-                    `Anil Sir has mentioned: "${bestMatch}"`,
-                    `Regarding this, Sir often advises: "${bestMatch}"`,
-                    `In a recent update, Anil Sir said: "${bestMatch}"`,
-                    `Here is what Sir has to say: "${bestMatch}"`
-                ];
-
-                // Randomly select a template
-                botResponse = templates[Math.floor(Math.random() * templates.length)];
-            } else {
-                // Fallback simple keyword match if fuse fails or is too strict
-                const keywords = input.toLowerCase().split(' ');
-                const match = telegramMessages.find(m => keywords.some(k => k.length > 3 && m.toLowerCase().includes(k)));
-                if (match) {
-                    botResponse = `I found a relevant update from Sir: "${match}"`;
-                }
-            }
-
-            setMessages(prev => [...prev, { text: botResponse, sender: 'bot' }]);
-        }, 600);
-
         setInput('');
+        setIsLoading(true);
+
+        // Call Gemini
+        const botReplyText = await generateResponse(input);
+
+        setMessages(prev => [...prev, { text: botReplyText, sender: 'bot' }]);
+        setIsLoading(false);
     };
 
     return (
@@ -116,8 +132,8 @@ const Chatbot = () => {
                     border: '1px solid var(--primary-light)'
                 }}>
                     {/* Header */}
-                    <div style={{ padding: '1rem', background: 'var(--primary)', color: 'white', fontWeight: 'bold' }}>
-                        Chat with Anil Sir (AI)
+                    <div style={{ padding: '1rem', background: 'var(--primary)', color: 'white', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <span>Anil Sir (AI Mentor)</span>
                     </div>
 
                     {/* Messages */}
@@ -129,13 +145,19 @@ const Chatbot = () => {
                                 color: 'white',
                                 padding: '0.8rem',
                                 borderRadius: '0.8rem',
-                                maxWidth: '80%',
+                                maxWidth: '85%',
                                 borderBottomRightRadius: msg.sender === 'user' ? '0' : '0.8rem',
-                                borderBottomLeftRadius: msg.sender === 'bot' ? '0' : '0.8rem'
+                                borderBottomLeftRadius: msg.sender === 'bot' ? '0' : '0.8rem',
+                                whiteSpace: 'pre-wrap'
                             }}>
                                 {msg.text}
                             </div>
                         ))}
+                        {isLoading && (
+                            <div style={{ alignSelf: 'flex-start', background: 'rgba(255,255,255,0.1)', padding: '0.8rem', borderRadius: '0.8rem' }}>
+                                <Loader2 className="animate-spin" size={20} color="var(--accent)" />
+                            </div>
+                        )}
                         <div ref={messagesEndRef} />
                     </div>
 
@@ -146,7 +168,8 @@ const Chatbot = () => {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-                            placeholder="Type your question..."
+                            placeholder="Beta, ask your question..."
+                            disabled={isLoading}
                             style={{
                                 flex: 1,
                                 padding: '0.5rem 1rem',
@@ -157,7 +180,7 @@ const Chatbot = () => {
                                 outline: 'none'
                             }}
                         />
-                        <button onClick={handleSend} style={{ background: 'none', border: 'none', color: 'var(--accent)', cursor: 'pointer' }}>
+                        <button onClick={handleSend} disabled={isLoading} style={{ background: 'none', border: 'none', color: 'var(--accent)', cursor: 'pointer', opacity: isLoading ? 0.5 : 1 }}>
                             <Send />
                         </button>
                     </div>
