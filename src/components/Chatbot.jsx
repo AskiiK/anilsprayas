@@ -74,7 +74,7 @@ const Chatbot = () => {
 
         } catch (error) {
             console.error("Gemini Error:", error);
-            return "Technical glitch! My AI brain is taking a moment. Please try again later. (API Error)";
+            return `Technical glitch! (Error: ${error.message || error})`;
         }
     };
 
