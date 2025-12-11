@@ -1,0 +1,65 @@
+import React from 'react';
+import logo from '../assets/logo.jpg';
+
+const Profile = () => {
+    return (
+        <section id="profile" className="section" style={{ background: 'linear-gradient(to bottom, var(--bg-dark), #111827)' }}>
+            <div className="container">
+                <div className="glass" style={{ padding: '3rem', borderRadius: '1.5rem', display: 'flex', flexDirection: 'column', md: { flexDirection: 'row' }, alignItems: 'center', gap: '3rem' }}>
+                    {/* Responsive flex layout is handled by CSS grid usually, but using inline styles for simplicity here means we might want a wrapper */}
+                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '3rem' }}>
+
+                        <div style={{ flex: '1 1 300px', textAlign: 'center' }}>
+                            <img
+                                src={logo}
+                                alt="Anil Sir"
+                                style={{
+                                    width: '250px',
+                                    height: '250px',
+                                    borderRadius: '1rem',
+                                    objectFit: 'cover',
+                                    boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+                                    border: '2px solid var(--primary)'
+                                }}
+                            />
+                        </div>
+
+                        <div style={{ flex: '2 1 400px' }}>
+                            <h2 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>Meet <span className="text-gradient">Anil Kumar Sir</span></h2>
+                            <h3 style={{ fontSize: '1.25rem', color: 'var(--accent)', marginBottom: '1.5rem', fontWeight: 'bold' }}>Director & Founder, Anil's Prayas</h3>
+
+                            <p style={{ color: 'var(--text-muted)', marginBottom: '1rem', fontSize: '1.1rem' }}>
+                                A distinguished alumnus of <strong>Science College, Patna</strong>, Anil Sir has dedicated over three decades to the cause of education. Since establishing Anil's Prayas in <strong style={{ color: 'white' }}>1993</strong>, he has been a pillar of strength for Hindi medium aspirants.
+                            </p>
+
+                            <p style={{ color: 'var(--text-muted)', marginBottom: '1rem', fontSize: '1.1rem' }}>
+                                Possessing deep expertise in <strong>History</strong> and <strong>General Studies</strong>, he has personally mentored thousands of students. His teaching philosophy goes beyond rote learning; he believes in building analytical ability and confidence in students from rural backgrounds.
+                            </p>
+
+                            <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', fontSize: '1.1rem' }}>
+                                Qualified in multiple <strong>NET/SET</strong> examinations, his academic excellence translates into a rigorous yet accessible curriculum. He stands as a guardian against misinformation, ensuring students receive authentic and strategic guidance for UPSC and BPSC.
+                            </p>
+
+                            <div style={{ display: 'flex', gap: '2rem', marginTop: '2rem' }}>
+                                <div style={{ textAlign: 'center' }}>
+                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>1993</h4>
+                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Established</span>
+                                </div>
+                                <div style={{ textAlign: 'center' }}>
+                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>M.A.</h4>
+                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Science College</span>
+                                </div>
+                                <div style={{ textAlign: 'center' }}>
+                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>NET/SET</h4>
+                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Qualified</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Profile;

@@ -1,0 +1,825 @@
+%PDF-1.4
+<</Title (LinkedIn profile)
+/Producer (Skia/PDF m144 Google Docs Renderer)>>
+/BM /Normal>>
+11 0 obj
+<</Filter /FlateDecode
+/Length 5988>> stream
+Yk@Z{"vR
+fy;0sX^:0
+endstream
+13 0 obj
+<</Filter /FlateDecode
+/Length 2972>> stream
+Nip{=}NdB
+?R@!4X"-
+endstream
+<</Type /Page
+/Resources <</ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ExtGState <</G3 3 0 R>>
+/Font <</F4 4 0 R
+/F5 5 0 R
+/F6 6 0 R
+/F7 7 0 R
+/F8 8 0 R
+/F9 9 0 R
+/F10 10 0 R>>>>
+/MediaBox [0 0 612 792]
+/Contents 11 0 R
+/StructParents 0
+/Tabs /S
+/Parent 14 0 R>>
+12 0 obj
+<</Type /Page
+/Resources <</ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ExtGState <</G3 3 0 R>>
+/Font <</F6 6 0 R
+/F7 7 0 R
+/F8 8 0 R>>>>
+/MediaBox [0 0 612 792]
+/Contents 13 0 R
+/StructParents 1
+/Tabs /S
+/Parent 14 0 R>>
+14 0 obj
+<</Type /Pages
+/Count 2
+/Kids [2 0 R 12 0 R]>>
+17 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+18 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+19 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+20 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+21 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+22 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+24 0 obj
+<</Type /StructElem
+/P 23 0 R
+/Pg 2 0 R
+25 0 obj
+<</Type /StructElem
+/P 23 0 R
+/Pg 2 0 R
+26 0 obj
+<</Type /StructElem
+/P 23 0 R
+/Pg 2 0 R
+27 0 obj
+<</Type /StructElem
+/P 23 0 R
+/Pg 2 0 R
+23 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K [24 0 R 25 0 R 26 0 R 27 0 R]>>
+28 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+29 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+31 0 obj
+<</Type /StructElem
+/P 30 0 R
+/Pg 2 0 R
+32 0 obj
+<</Type /StructElem
+/P 30 0 R
+/Pg 2 0 R
+30 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K [31 0 R 32 0 R]>>
+36 0 obj
+<</Type /StructElem
+/P 35 0 R
+/Pg 2 0 R
+37 0 obj
+<</Type /StructElem
+/P 35 0 R
+/Pg 2 0 R
+38 0 obj
+<</Type /StructElem
+/P 35 0 R
+/Pg 2 0 R
+35 0 obj
+<</Type /StructElem
+/P 34 0 R
+/K [36 0 R 37 0 R 38 0 R]>>
+34 0 obj
+<</Type /StructElem
+/P 33 0 R
+/K 35 0 R>>
+33 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K 34 0 R>>
+40 0 obj
+<</Type /StructElem
+/P 39 0 R
+/Pg 2 0 R
+39 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K 40 0 R>>
+44 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+45 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+46 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+47 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+48 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+49 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+50 0 obj
+<</Type /StructElem
+/P 43 0 R
+/Pg 2 0 R
+43 0 obj
+<</Type /StructElem
+/P 42 0 R
+/K [44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R]>>
+42 0 obj
+<</Type /StructElem
+/P 41 0 R
+/K 43 0 R>>
+41 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K 42 0 R>>
+52 0 obj
+<</Type /StructElem
+/P 51 0 R
+/Pg 2 0 R
+51 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K 52 0 R>>
+53 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+54 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 2 0 R
+56 0 obj
+<</Type /StructElem
+/P 55 0 R
+/Pg 12 0 R
+57 0 obj
+<</Type /StructElem
+/P 55 0 R
+/Pg 12 0 R
+58 0 obj
+<</Type /StructElem
+/P 55 0 R
+/Pg 12 0 R
+59 0 obj
+<</Type /StructElem
+/P 55 0 R
+/Pg 12 0 R
+60 0 obj
+<</Type /StructElem
+/P 55 0 R
+/Pg 12 0 R
+55 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K [56 0 R 57 0 R 58 0 R 59 0 R 60 0 R]>>
+61 0 obj
+<</Type /StructElem
+/P 16 0 R
+/Pg 12 0 R
+63 0 obj
+<</Type /StructElem
+/P 62 0 R
+/Pg 12 0 R
+64 0 obj
+<</Type /StructElem
+/P 62 0 R
+/Pg 12 0 R
+65 0 obj
+<</Type /StructElem
+/P 62 0 R
+/Pg 12 0 R
+66 0 obj
+<</Type /StructElem
+/P 62 0 R
+/Pg 12 0 R
+67 0 obj
+<</Type /StructElem
+/P 62 0 R
+/Pg 12 0 R
+62 0 obj
+<</Type /StructElem
+/P 16 0 R
+/K [63 0 R 64 0 R 65 0 R 66 0 R 67 0 R]>>
+16 0 obj
+<</Type /StructElem
+/S /Document
+/P 15 0 R
+/K [17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 28 0 R 29 0 R 30 0 R 33 0 R 39 0 R 41 0 R 51 0 R 53 0 R 54 0 R 55 0 R 61 0 R 62 0 R]>>
+68 0 obj
+[17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 31 0 R 32 0 R 36 0 R 37 0 R 38 0 R 40 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 52 0 R 53 0 R 54 0 R]
+69 0 obj
+[56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R]
+70 0 obj
+<</Type /ParentTree
+/Nums [0 68 0 R 1 69 0 R]>>
+15 0 obj
+<</Type /StructTreeRoot
+/K 16 0 R
+/ParentTreeNextKey 2
+/ParentTree 70 0 R>>
+73 0 obj
+<</Title <FEFFD83DDCCD0020004C006F0063006100740069006F006E0020>
+/Dest [2 0 R /XYZ 72 674.40161 0]
+/Parent 72 0 R
+/SE 18 0 R
+/Next 74 0 R>>
+75 0 obj
+<</Title (mentor-director )
+/Dest [2 0 R /XYZ 72.882004 583.34998 0]
+/Parent 74 0 R
+/SE 21 0 R>>
+74 0 obj
+<</Title <FEFFD83DDCBC00200045007800700065007200690065006E006300650020>
+/Dest [2 0 R /XYZ 72 616.65161 0]
+/Parent 72 0 R
+/SE 20 0 R
+/Prev 73 0 R
+/Next 76 0 R
+/First 75 0 R
+/Last 75 0 R
+/Count 1>>
+77 0 obj
+<</Title (SCIENCE COLLEGE, PATNA )
+/Dest [2 0 R /XYZ 72.419998 389.05801 0]
+/Parent 76 0 R
+/SE 29 0 R>>
+76 0 obj
+<</Title <FEFFD83CDF9300200045006400750063006100740069006F006E0020>
+/Dest [2 0 R /XYZ 72 422.40164 0]
+/Parent 72 0 R
+/SE 28 0 R
+/Prev 74 0 R
+/Next 78 0 R
+/First 77 0 R
+/Last 77 0 R
+/Count 1>>
+79 0 obj
+<</Title (National & State Eligibility Tests \(NET/SET\) Qualified )
+/Dest [12 0 R /XYZ 73.218002 630.76001 0]
+/Parent 78 0 R
+/SE 61 0 R>>
+78 0 obj
+<</Title <FEFF2728002000410063006100640065006D0069006300200045007800630065006C006C0065006E00630065002000260020005100750061006C0069006600690063006100740069006F006E00730020>
+/Dest [2 0 R /XYZ 72 129.151611 0]
+/Parent 72 0 R
+/SE 53 0 R
+/Prev 76 0 R
+/First 79 0 R
+/Last 79 0 R
+/Count 1>>
+72 0 obj
+<</Title (Anil Kumar )
+/Dest [2 0 R /XYZ 72.360001 708.59998 0]
+/Parent 71 0 R
+/SE 17 0 R
+/First 73 0 R
+/Last 78 0 R
+/Count 7>>
+71 0 obj
+<</Type /Outlines
+/First 72 0 R
+/Last 72 0 R
+/Count 8>>
+80 0 obj
+<</Type /Catalog
+/Pages 14 0 R
+/MarkInfo <</Type /MarkInfo
+/Marked true>>
+/StructTreeRoot 15 0 R
+/Outlines 71 0 R
+/ViewerPreferences <</Type /ViewerPreferences
+/DisplayDocTitle true>>>>
+81 0 obj
+<</Length1 47876
+/Filter /FlateDecode
+/Length 5067>> stream
+=lDSpLSp
+^@@@@@@@@@
+A@@@@@@@@@@@@@@@@@@@@@
+3H@@@@@@`9
+8A@@@@@@@@@
+endstream
+82 0 obj
+<</Type /FontDescriptor
+/FontName /AAAAAA+GoogleSans-Bold
+/Flags 4
+/Ascent 966
+/Descent -286
+/StemV 141
+/CapHeight 716
+/ItalicAngle 0
+/FontBBox [-1012 -1027 3284 1319]
+/FontFile2 81 0 R>>
+83 0 obj
+<</Type /Font
+/FontDescriptor 82 0 R
+/BaseFont /AAAAAA+GoogleSans-Bold
+/Subtype /CIDFontType2
+/CIDToGIDMap /Identity
+/CIDSystemInfo <</Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0>>
+/W [0 [590 722] 28 [745] 38 [586] 57 [818] 65 [297] 79 [685 0 547] 88 [741] 94 [838] 119 [608 0 838] 126 [582] 132 [579] 177 [560] 203 [567] 209 [628 0 0 0 584] 264 [908 597] 271 [613] 296 [628 0 0 421 0 0 0 503] 310 [415] 315 [597] 340 [522] 367 [643] 1042 [284] 1078 [463] 1111 [234] 1221 [658]]
+/DW 257>>
+84 0 obj
+<</Filter /FlateDecode
+/Length 396>> stream
+endstream
+<</Type /Font
+/Subtype /Type0
+/BaseFont /AAAAAA+GoogleSans-Bold
+/Encoding /Identity-H
+/DescendantFonts [83 0 R]
+/ToUnicode 84 0 R>>
+85 0 obj
+<</Length 23>> stream
+2550.0156 0 0 0 0 0 d1
+endstream
+86 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceRGB
+/SMask 87 0 R
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 2297>> stream
+endstream
+87 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 455>> stream
+m0_-gyVrD
+endstream
+88 0 obj
+<</Length 49>> stream
+2555.2969 0 d0
+2560 0 0 -2432 0 512 cm
+/Xg2A8 Do
+endstream
+89 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceRGB
+/SMask 90 0 R
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 1279>> stream
+T.Be8[la
+endstream
+90 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 441>> stream
+endstream
+91 0 obj
+<</Length 49>> stream
+2555.2969 0 d0
+2560 0 0 -2432 0 512 cm
+/Xg2B9 Do
+endstream
+92 0 obj
+<</Filter /FlateDecode
+/Length 236>> stream
+endstream
+93 0 obj
+<</Type /FontDescriptor
+/FontFamily (Noto Color Emoji)
+/FontStretch /Normal
+/FontWeight 400
+/FontName /BAAAAA+NotoColorEmoji
+/ItalicAngle 0
+/CapHeight 1900
+/XHeight 1897.6881
+/Flags 5>>
+<</Type /Font
+/Subtype /Type3
+/FontMatrix [.00048828125 0 0 -.00048828125 0 0]
+/Resources <</XObject <</Xg2A8 86 0 R
+/Xg2B9 89 0 R>>>>
+/FirstChar 0
+/LastChar 187
+/FontBBox [0 508 2556 -1898]
+/CIDToGIDMap /Identity
+/ToUnicode 92 0 R
+/FontDescriptor 93 0 R
+/Widths [2550.0156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2555.2969 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2555.2969]
+/Encoding <</Type /Encoding
+/Differences [0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g2A8 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g2B9]>>
+/CharProcs <</g0 85 0 R
+/g2A8 88 0 R
+/g2B9 91 0 R>>>>
+94 0 obj
+<</Length1 61032
+/Filter /FlateDecode
+/Length 11480>> stream
+-m]a|xtzj+>
+\^>0YW79P
+*Uoj[eO7
+eeMVkSYY
+Mu%%u&>%
+endstream
+95 0 obj
+<</Type /FontDescriptor
+/FontName /CAAAAA+GoogleSansText-Regular
+/Flags 4
+/Ascent 966
+/Descent -286
+/StemV 94
+/CapHeight 716
+/ItalicAngle 0
+/FontBBox [-972 -1050 3284 1299]
+/FontFile2 94 0 R>>
+96 0 obj
+<</Type /Font
+/FontDescriptor 95 0 R
+/BaseFont /CAAAAA+GoogleSansText-Regular
+/Subtype /CIDFontType2
+/CIDToGIDMap /Identity
+/CIDSystemInfo <</Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0>>
+/W [0 [580 642] 27 [629 700] 34 [696 0 0 0 576] 56 [553 734] 62 [692 0 0 251] 79 [610 0 546] 87 [842 701] 94 [767] 119 [606 0 767 605 0 0 0 594] 132 [564] 137 [680] 157 [907] 162 [601 566] 177 [551] 202 [599 540] 209 [598 0 0 0 560] 232 [358 590] 238 [576 0 0 228] 256 [491 0 0 228] 264 [837 564] 271 [584] 296 [599 0 0 370 0 0 0 486] 310 [358] 315 [564] 334 [490 738] 340 [489 507] 934 [668 420 528 537 577 0 0 0 546 564] 1062 [320] 1072 1073 352 1078 [459 0 620] 1094 [418]]
+/DW 256>>
+97 0 obj
+<</Filter /FlateDecode
+/Length 492>> stream
+endstream
+<</Type /Font
+/Subtype /Type0
+/BaseFont /CAAAAA+GoogleSansText-Regular
+/Encoding /Identity-H
+/DescendantFonts [96 0 R]
+/ToUnicode 97 0 R>>
+98 0 obj
+<</Length1 57864
+/Filter /FlateDecode
+/Length 10054>> stream
+:kmSS-9Nl
+3'fnLCLs
+PtJtZJtJ3
+^eNOHr&GGi
+5//!uZc]
+/#59;~$3#
+k`wEGxE0
+ikF]vN]ff]Nv]
+G&'H_EKl
+endstream
+99 0 obj
+<</Type /FontDescriptor
+/FontName /DAAAAA+GoogleSansText-Bold
+/Flags 4
+/Ascent 966
+/Descent -286
+/StemV 156
+/CapHeight 716
+/ItalicAngle 0
+/FontBBox [-1012 -1078 3284 1322]
+/FontFile2 98 0 R>>
+100 0 obj
+<</Type /Font
+/FontDescriptor 99 0 R
+/BaseFont /DAAAAA+GoogleSansText-Bold
+/Subtype /CIDFontType2
+/CIDToGIDMap /Identity
+/CIDSystemInfo <</Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0>>
+/W [0 [590 706] 28 [743] 34 [737 0 0 0 611] 56 [571 780] 62 [740 0 0 308] 81 [585] 87 [892 746] 94 [804] 119 [649 0 804 665 0 0 0 624] 132 [622] 137 [719] 163 [632] 177 [592] 202 [635 575] 209 [635 0 0 0 588] 232 [390 625] 238 [621] 241 259 275 264 [889 611] 271 [612] 296 [635 0 0 412 0 0 0 523] 310 [410] 315 [611] 334 [585 805] 340 [540 588] 349 [506] 367 [671] 1062 [362] 1072 1073 387 1078 [481] 1086 1087 580 1089 [340] 1111 [256] 1221 [734]]
+/DW 292>>
+101 0 obj
+<</Filter /FlateDecode
+/Length 484>> stream
+endstream
+<</Type /Font
+/Subtype /Type0
+/BaseFont /DAAAAA+GoogleSansText-Bold
+/Encoding /Identity-H
+/DescendantFonts [100 0 R]
+/ToUnicode 101 0 R>>
+102 0 obj
+<</Length1 24284
+/Filter /FlateDecode
+/Length 6420>> stream
+6lxYQaJZ
+1ejQMyhnKJ
+RHLX{R||
+endstream
+103 0 obj
+<</Type /FontDescriptor
+/FontName /EAAAAA+ArialMT
+/Flags 4
+/Ascent 905.27344
+/Descent -211.91406
+/StemV 45.898438
+/CapHeight 715.82031
+/ItalicAngle 0
+/FontBBox [-664.55078 -324.70703 2000 1005.85938]
+/FontFile2 102 0 R>>
+104 0 obj
+<</Type /Font
+/FontDescriptor 103 0 R
+/BaseFont /EAAAAA+ArialMT
+/Subtype /CIDFontType2
+/CIDToGIDMap /Identity
+/CIDSystemInfo <</Registry (Adobe)
+/Ordering (Identity)
+/Supplement 0>>
+/W [3 [277.83203] 380 404 604.00391]
+/DW 750>>
+105 0 obj
+<</Filter /FlateDecode
+/Length 241>> stream
+endstream
+<</Type /Font
+/Subtype /Type0
+/BaseFont /EAAAAA+ArialMT
+/Encoding /Identity-H
+/DescendantFonts [104 0 R]
+/ToUnicode 105 0 R>>
+106 0 obj
+<</Length 23>> stream
+2550.0156 0 0 0 0 0 d1
+endstream
+107 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceRGB
+/SMask 108 0 R
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 2583>> stream
+^=5*d0#'=
+endstream
+108 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 695>> stream
+endstream
+109 0 obj
+<</Length 49>> stream
+2555.2969 0 d0
+2560 0 0 -2432 0 512 cm
+/Xg187 Do
+endstream
+110 0 obj
+<</Filter /FlateDecode
+/Length 228>> stream
+ KkWPKb-
+endstream
+<</Type /Font
+/Subtype /Type3
+/FontMatrix [.00048828125 0 0 -.00048828125 0 0]
+/Resources <</XObject <</Xg187 107 0 R>>>>
+/FirstChar 0
+/LastChar 136
+/FontBBox [0 508 2556 -1898]
+/CIDToGIDMap /Identity
+/ToUnicode 110 0 R
+/FontDescriptor 93 0 R
+/Widths [2550.0156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2555.2969]
+/Encoding <</Type /Encoding
+/Differences [0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g187]>>
+/CharProcs <</g0 106 0 R
+/g187 109 0 R>>>>
+111 0 obj
+<</Length 23>> stream
+2550.0156 0 0 0 0 0 d1
+endstream
+112 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceRGB
+/SMask 113 0 R
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 2761>> stream
+endstream
+113 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 80
+/Height 76
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/Length 983>> stream
+endstream
+114 0 obj
+<</Length 48>> stream
+2555.2969 0 d0
+2560 0 0 -2432 0 512 cm
+/Xg9C Do
+endstream
+115 0 obj
+<</Filter /FlateDecode
+/Length 225>> stream
+4`qL7]ux
+endstream
+10 0 obj
+<</Type /Font
+/Subtype /Type3
+/FontMatrix [.00048828125 0 0 -.00048828125 0 0]
+/Resources <</XObject <</Xg9C 112 0 R>>>>
+/FirstChar 0
+/LastChar 156
+/FontBBox [0 508 2556 -1898]
+/CIDToGIDMap /Identity
+/ToUnicode 115 0 R
+/FontDescriptor 93 0 R
+/Widths [2550.0156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2555.2969]
+/Encoding <</Type /Encoding
+/Differences [0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g0 /g9C]>>
+/CharProcs <</g0 111 0 R
+/g9C 114 0 R>>>>
+0000000000 65535 f 
+0000000015 00000 n 
+0000009248 00000 n 
+0000000107 00000 n 
+0000022194 00000 n 
+0000028286 00000 n 
+0000042862 00000 n 
+0000054591 00000 n 
+0000062049 00000 n 
+0000066291 00000 n 
+0000072052 00000 n 
+0000000144 00000 n 
+0000009529 00000 n 
+0000006204 00000 n 
+0000009769 00000 n 
+0000014083 00000 n 
+0000013511 00000 n 
+0000009832 00000 n 
+0000009902 00000 n 
+0000009972 00000 n 
+0000010041 00000 n 
+0000010111 00000 n 
+0000010181 00000 n 
+0000010530 00000 n 
+0000010250 00000 n 
+0000010320 00000 n 
+0000010390 00000 n 
+0000010460 00000 n 
+0000010617 00000 n 
+0000010688 00000 n 
+0000010901 00000 n 
+0000010759 00000 n 
+0000010830 00000 n 
+0000011332 00000 n 
+0000011267 00000 n 
+0000011187 00000 n 
+0000010974 00000 n 
+0000011045 00000 n 
+0000011116 00000 n 
+0000011467 00000 n 
+0000011396 00000 n 
+0000012201 00000 n 
+0000012136 00000 n 
+0000012028 00000 n 
+0000011531 00000 n 
+0000011602 00000 n 
+0000011673 00000 n 
+0000011744 00000 n 
+0000011815 00000 n 
+0000011886 00000 n 
+0000011957 00000 n 
+0000012336 00000 n 
+0000012265 00000 n 
+0000012400 00000 n 
+0000012471 00000 n 
+0000012896 00000 n 
+0000012541 00000 n 
+0000012612 00000 n 
+0000012683 00000 n 
+0000012754 00000 n 
+0000012825 00000 n 
+0000012990 00000 n 
+0000013417 00000 n 
+0000013061 00000 n 
+0000013132 00000 n 
+0000013203 00000 n 
+0000013274 00000 n 
+0000013345 00000 n 
+0000013710 00000 n 
+0000013924 00000 n 
+0000014019 00000 n 
+0000015582 00000 n 
+0000015438 00000 n 
+0000014175 00000 n 
+0000014443 00000 n 
+0000014330 00000 n 
+0000014775 00000 n 
+0000014655 00000 n 
+0000015138 00000 n 
+0000014983 00000 n 
+0000015654 00000 n 
+0000015856 00000 n 
+0000021010 00000 n 
+0000021214 00000 n 
+0000021727 00000 n 
+0000022341 00000 n 
+0000022413 00000 n 
+0000024891 00000 n 
+0000025513 00000 n 
+0000025611 00000 n 
+0000027071 00000 n 
+0000027679 00000 n 
+0000027777 00000 n 
+0000028084 00000 n 
+0000029823 00000 n 
+0000041391 00000 n 
+0000041600 00000 n 
+0000042299 00000 n 
+0000043016 00000 n 
+0000053158 00000 n 
+0000053366 00000 n 
+0000054035 00000 n 
+0000054744 00000 n 
+0000061252 00000 n 
+0000061490 00000 n 
+0000061736 00000 n 
+0000062190 00000 n 
+0000062263 00000 n 
+0000065029 00000 n 
+0000065892 00000 n 
+0000065991 00000 n 
+0000067489 00000 n 
+0000067562 00000 n 
+0000070506 00000 n 
+0000071657 00000 n 
+0000071755 00000 n 
+<</Size 116
+/Root 80 0 R
+/Info 1 0 R>>
+startxref
