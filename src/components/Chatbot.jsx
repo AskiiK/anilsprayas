@@ -42,7 +42,7 @@ const Chatbot = () => {
 
         try {
             const genAI = new GoogleGenerativeAI(API_KEY);
-            const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
+            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
             // 1. Retrieve Context
             const searchResults = fuse.search(userQuery);
