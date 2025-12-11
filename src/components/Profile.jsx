@@ -40,19 +40,26 @@ const Profile = () => {
                                 Qualified in multiple <strong>NET/SET</strong> examinations, his academic excellence translates into a rigorous yet accessible curriculum. He stands as a guardian against misinformation, ensuring students receive authentic and strategic guidance for UPSC and BPSC.
                             </p>
 
-                            <div style={{ display: 'flex', gap: '2rem', marginTop: '2rem' }}>
-                                <div style={{ textAlign: 'center' }}>
-                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>1993</h4>
-                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Established</span>
-                                </div>
-                                <div style={{ textAlign: 'center' }}>
-                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>M.A.</h4>
-                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Science College</span>
-                                </div>
-                                <div style={{ textAlign: 'center' }}>
-                                    <h4 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white' }}>NET/SET</h4>
-                                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Qualified</span>
-                                </div>
+                            <div style={{ marginTop: '2rem' }}>
+                                <h4 style={{ color: 'white', fontWeight: 'bold', marginBottom: '1rem' }}>Academic Excellence & Qualifications</h4>
+                                <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '0.8rem', paddingLeft: '0', listStyle: 'none' }}>
+                                    {[
+                                        "M.A - Ancient History & Archaeology (Gold Medalist) - Patna University",
+                                        "LLM - Patna University",
+                                        "M.Sc - Physics (Spectroscopy Specialization) - Patna University",
+                                        "UGC NET Qualified - Archaeology",
+                                        "UGC NET Qualified - Indian Culture",
+                                        "UGC NET Qualified - History",
+                                        "UGC NET Qualified - South Asian Studies",
+                                        "BET Qualified - Ancient History (Bihar Eligibility Test)",
+                                        "CSIR Fellowship Awarded for Physics"
+                                    ].map((qual, i) => (
+                                        <li key={i} style={{ display: 'flex', alignItems: 'start', gap: '0.5rem', color: 'var(--text-muted)' }}>
+                                            <span style={{ color: 'var(--accent)', marginTop: '4px' }}>•</span>
+                                            <span>{qual}</span>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     </div>
