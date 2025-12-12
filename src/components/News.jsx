@@ -43,40 +43,53 @@ const News = () => {
     return (
         <section className="section" style={{ padding: '2rem 0', background: 'rgba(59, 130, 246, 0.1)', borderBottom: '1px solid var(--glass-border)' }}>
             <div className="container">
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <Bell color="var(--accent)" />
-                        <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>Latest National News (Updates Daily)</h3>
+                <div style={{ maxWidth: '800px', margin: '0 auto' }}> { /* Centered and constrained width */}
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+                            <Bell color="var(--accent)" size={20} />
+                            <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>Latest National News</h3>
+                        </div>
+                        <button onClick={fetchNews} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-muted)' }} title="Refresh News">
+                            <RefreshCw size={16} className={loading ? 'animate-spin' : ''} />
+                        </button>
                     </div>
-                    <button onClick={fetchNews} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-muted)' }} title="Refresh News">
-                        <RefreshCw size={18} className={loading ? 'animate-spin' : ''} />
-                    </button>
-                </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                    {loading ? (
-                        <p style={{ textAlign: 'center', color: 'var(--text-muted)' }}>Loading latest news...</p>
-                    ) : (
-                        newsItems.map((item, idx) => (
-                            <div key={idx} className="glass" style={{ padding: '1rem', borderRadius: '0.5rem', borderLeft: '4px solid var(--accent)', display: 'flex', justifyContent: 'space-between', alignItems: 'start', gap: '1rem' }}>
-                                <div>
-                                    <p style={{ fontSize: '1rem', fontWeight: '500' }}>{item.text}</p>
-                                    {item.date && <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{new Date(item.date).toDateString()}</span>}
-                                </div>
-                                {item.link && (
-                                    <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', flexShrink: 0 }}>
-                                        <ExternalLink size={16} />
-                                    </a>
-                                )}
-                            </div>
-                        ))
-                    )}
-                </div>
+                    <div className="glass" style={{ padding: '1rem', borderRadius: '1rem', maxHeight: '400px', overflowY: 'auto' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                            {loading ? (
+                                <p style={{ textAlign: 'center', color: 'var(--text-muted)' }}>Loading latest news...</p>
+                            ) : (
+                                newsItems.map((item, idx) => (
+                                    <div key={idx} style={{
+                                        padding: '0.8rem',
+                                        borderRadius: '0.5rem',
+                                        background: 'rgba(255,255,255,0.05)',
+                                        borderLeft: '3px solid var(--accent)',
+                                        display: 'flex',
+                                        justifyContent: 'space-between',
+                                        alignItems: 'start',
+                                        gap: '1rem'
+                                    }}>
+                                        <div>
+                                            <p style={{ fontSize: '0.95rem', fontWeight: '500', lineHeight: '1.4' }}>{item.text}</p>
+                                            {item.date && <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'block', marginTop: '4px' }}>{new Date(item.date).toDateString()}</span>}
+                                        </div>
+                                        {item.link && (
+                                            <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', flexShrink: 0, marginTop: '2px' }}>
+                                                <ExternalLink size={14} />
+                                            </a>
+                                        )}
+                                    </div>
+                                ))
+                            )}
+                        </div>
+                    </div>
 
-                <div style={{ marginTop: '1rem', textAlign: 'right' }}>
-                    <a href="https://t.me/anilsprayas" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-light)', fontSize: '0.9rem', textDecoration: 'underline' }}>
-                        Join Telegram for More Updates
-                    </a>
+                    <div style={{ marginTop: '0.8rem', textAlign: 'right' }}>
+                        <a href="https://t.me/anilsprayas" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-light)', fontSize: '0.85rem', textDecoration: 'underline' }}>
+                            More on Telegram
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
